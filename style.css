@@ -132,6 +132,58 @@ background: rgba(251, 181, 99, 0.05);
     padding-right: 150px;
     padding-top: 50px; 
     }
+    /* section-5 */
+    .section-5{
+        display: flex;
+        gap: 25px;
+        padding-left: 130px;
+        padding-right: 150px;
+        padding-top: 50px; 
+    }
+    .section-5-content{
+        width: 474px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding-left: 25px;
+padding-top: 20px;
+    }
+    .section-5-content input{
+        border-radius: 8px;
+        margin-bottom: 30px;
+        
+        background: rgba(19, 19, 24, 0.05);
+        width: 393px;
+height: 52px;
+    }
+    .secondary-btn{
+        width: 393px;
+        height: 52px;
+        flex-shrink: 0; 
+        border-radius: 8px;
+        border: none;
+        color: white;
+background: #FF5400;
+    }
+    .section-5-img{
+        border-radius: 16px;
+        background: url('Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+        width: 672px;
+height: 422px;
+    }
+.travel-btn{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+background: #FF5400;
+border: none;
+position: relative;
+top: 250px;
+left: 340px;
+color: white;
+}
 /* responsive for mobile */
 @media screen and (max-width:600px) {
     nav ul{
@@ -164,12 +216,35 @@ background: rgba(251, 181, 99, 0.05);
     }
     .section-3, .section-4{
         flex-direction: column;
-        padding: 0px 10px;
+        padding: 10px 10px;
     }
     .card{
         flex-direction: column;
     }
     .last-card{
         padding: 10px;
+    }
+    .section-5{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .section-5 input{
+        width: 300px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .secondary-btn{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .section-5-img{
+        width: 100%;
+
+    }
+    .travel-btn{
+        left: 260px;
+        width: 224px;
+    height: 100px;
+    top: 280px;
     }
 }

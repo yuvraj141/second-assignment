@@ -124,6 +124,14 @@ background: rgba(251, 181, 99, 0.05);
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);}
+    /* Section-4 style */
+    .section-4{
+        display: flex;
+       gap: 25px;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-top: 50px; 
+    }
 /* responsive for mobile */
 @media screen and (max-width:600px) {
     nav ul{
@@ -150,11 +158,11 @@ background: rgba(251, 181, 99, 0.05);
     .destination{
         flex-direction: column;
     }
-    .destination img{
+    .destination img ,.section-4 img{
        height: 100%;
         width: 100%;
     }
-    .section-3{
+    .section-3, .section-4{
         flex-direction: column;
         padding: 0px 10px;
     }

@@ -15,6 +15,7 @@ body{
 h1{
     color: #131318;
     font-size: 2.5rem;
+    font-weight: 800;
 }
 /* banner section */
 .banner{
@@ -52,6 +53,7 @@ nav ul{
 .banner-content{
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
+   
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 100px;
@@ -90,6 +92,38 @@ input, select{
     gap: 15px;
     margin-bottom: 10px;
 }
+/* section 3 style */
+.section-3{
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-top: 50px;  
+    
+}
+.card-img{
+    width: 64px;
+    height: 64px;
+}
+.card {
+    display:flex;
+  gap: 25px;
+}
+.card div{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.last-card{
+    margin-top: 20px;
+    padding: 0 300px;
+}
+.card .second-card{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);}
 /* responsive for mobile */
 @media screen and (max-width:600px) {
     nav ul{
@@ -119,5 +153,15 @@ input, select{
     .destination img{
        height: 100%;
         width: 100%;
+    }
+    .section-3{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .last-card{
+        padding: 10px;
     }
 }

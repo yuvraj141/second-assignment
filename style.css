@@ -182,7 +182,7 @@ background: #FF5400;
 height: 422px;
     }
 .travel-btn{
-    width: 324px;
+    width: 224px;
     height: 120px;
     transform: rotate(-19.628deg);
     border-radius: 16px;
@@ -190,7 +190,7 @@ background: #FF5400;
 border: none;
 position: relative;
 top: 250px;
-left: 340px;
+left: 300px;
 color: white;
 }
 /* footer */
@@ -240,6 +240,9 @@ color: white;
        padding-left: 50px;
        padding-right: 50px;
     }
+    .banner-content{
+        padding-top: 10px;
+    }
     .section-1 img{
         width: 100%;
     }
@@ -282,7 +285,7 @@ color: white;
 
     }
     .travel-btn{
-        left: 260px;
+        left: 200px;
         width: 224px;
     height: 100px;
     top: 280px;
